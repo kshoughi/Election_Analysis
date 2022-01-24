@@ -33,5 +33,5 @@ These can be confirmed by the Text File Output of the code:
 ## Election Audit Summary
 This code can be used for any election with a few modifications which are the following:
 
-- The first modification would changing the name and possibly the location of the csv file. In the original code we have ``file_to_load = os.path.join("Resources", "election_results.csv")``. This section has to be updated based on the name of the file and the folder.
+- The first modification would be changing the name and possibly the location of the csv file. In the original code we have ``file_to_load = os.path.join("Resources", "election_results.csv")``. This section has to be updated based on the name of the file and the folder.
 - The second modification is to check the csv file. Columns need to be checked to see if they match the code. For example, ``candidate_name = row [2]``, this is only true for this csv file where the name of candidates is in column 3. This needs to be changed accordingly for a different dataset.
